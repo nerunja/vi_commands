@@ -1,5 +1,4 @@
-VIM Commands 
-# SOME QUICKIES
+# VI Commands 
 ## Indent
 ```
 :set autoindent
