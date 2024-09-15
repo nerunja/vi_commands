@@ -95,6 +95,7 @@ Replace ALL comma `,` in a line with EOL (End Of Line)
 :%s/,/\r/g   
 
 ### MOVE AROUND
+```
 h, j, k, l - Move Cursor (left, down, up, right respectively)   
 gj,gk      - Move Cursor down/up across same which is wrapped in the screen   
 % - Move to associated ( ), { }, [ ] cursor SHOULD be on  ( ), { }, [ ]   
@@ -134,8 +135,8 @@ b - go to the previous (before) word
 B - go to the previous (before) WORD   
 w - go to the next word   
 W - go to the next WORD   
-WORD - WORD consists of a sequence of non-blank characters, separated with white space.
-word -  word consists of a sequence of letters, digits and underscores.
+WORD - WORD consists of a sequence of non-blank characters, separated with white space.   
+word -  word consists of a sequence of letters, digits and underscores.   
 Example to show the difference between WORD and word
 192.168.1.1 - single WORD
 192.168.1.1 - seven words.
@@ -153,13 +154,13 @@ Ctrl q    - Block / column wise selection mode
 Alt Mouse - Block / column wise selection mode (gVIM only)
 (place cursor from where block select should be done
 hold down ALT key, drag-select using mouse)
-
-SCREEN MOVEMENT
-z.  Center the screen on the cursor
-zt  Scroll the screen so the cursor is at the top
-zb  Scroll the screen so the cursor is at the bottom
-Ctrl E - scroll screen up
-Ctrl Y - scroll screen down
+```
+### SCREEN MOVEMENT
+z.  Center the screen on the cursor   
+zt  Scroll the screen so the cursor is at the top   
+zb  Scroll the screen so the cursor is at the bottom   
+Ctrl E - scroll screen up   
+Ctrl Y - scroll screen down   
 
 
 ### BOOKMARKS
@@ -357,10 +358,11 @@ dfx - delete till and including x
 ctx - change till x   
 cfx - change till and including x   
 
+
 :g/pattern/command - apply command to all matches for the pattern   
 e.g   
 :g/temp/d - delete all occurrences of the word temp   
-:1,$/^#/d - delete all lines starting with # (1,$ is equal to g)   
+`:1,$/^#/d - delete all lines starting with # (1,$ is equal to g)   `   
 :g!/^#/d  - delete all lines NOT starting with #   
 :5,10m0   - move lines 5 to 10 above 1st line of file   
 
@@ -369,6 +371,7 @@ When text is visually selected, press : to enter a command.
 The command line will automatically enter the range:   
 :'<,'>   
 :'<,'>s/red/green/g   
+
 ```
 NOTE:
 <  visual selection automatically bookmarks <u>start line</u> in the key <
