@@ -1,18 +1,30 @@
-VIM Commands (updated: 15-May-2016)
+VIM Commands 
 ------------------------------------------------------------------------------------
-SOME QUICKIES
-Indent
+# SOME QUICKIES
+## Indent
+```
 :set autoindent
 :set smartindent     - It will increase the indent in a new block.
+```
+### Count
+```
 Ctrl + a - Increment counter integer value under cursor
 Ctrl + x - Decrement counter integer value under cursor
+```
+## Clipboard
+```
 :/Crtr+R* - Paste system clipboard text into command line to search the same
 :Ctrl+R 0 - Paste last yanked text in command line
+```
+## Browse
+```
 :bro[wse] ol[dfiles] - type the number and enter [press spacebar to view more files, note the of file num to edit, press q]
 :ol[dfiles]  - show recent files list. To choose file n :e #&lt;n
 :Vex d:\n (press tab) - open vertically split explorer showing d:/n... folders, press
 :tabnew        - open a new tab for a new untitled [No Name] file
 :browse tabnew - open a new tab with file open dialog
+```
+```
 i       - Insert text from cursor
 I       - Insert text from START OF LINE
 a       - Append text at char AFTER cursor
@@ -621,3 +633,4 @@ or open vim application with the -S option:
 $ vim -S ~/mysession.vim
 
 5. number followed by dot – repeat last vim command 5 times
+```
