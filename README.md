@@ -138,21 +138,21 @@ word -  word consists of a sequence of letters, digits and underscores.
 Example to show the difference between WORD and word
 192.168.1.1 - single WORD
 192.168.1.1 - seven words.
-Ctrl v - Block/Column selection mode
-e.g
-Select a block by pressing CTRL-v
-(if you want to select 5 lines from a given column till end of line, after
-Ctrl-v, press j 5 times to select 5 lines and $ to select till end of lines for those 5 lines)
-Type I (Block Insert mode),
-Edit the text. For example, if I wanted to prepend bullet points before each line type *
-Press <Esc>
-Watch as each line is prepended with *
-to read about "Visual-block Insert" type :help v_b_I)
-Ctrl q    - Block / column wise selection mode
-Alt Mouse - Block / column wise selection mode (gVIM only)
-(place cursor from where block select should be done
-hold down ALT key, drag-select using mouse)
 ```
+### Ctrl v - Block/Column selection mode and EDIT  
+e.g   
+Select a block by pressing CTRL-v   
+(if you want to select 5 lines from a given column till end of line, after   
+Ctrl-v, press j 5 times to select 5 lines and $ to select till end of lines for those 5 lines)   
+Type I (Insert at the begining of line),   
+Edit the text. For example, if wanted to prepend bullet points before each line type `*` `<ESC>`   
+Watch as each line is prepended with *   
+to read about "Visual-block Insert" type :help v_b_I)   
+Ctrl q    - Block / column wise selection mode   
+Alt Mouse - Block / column wise selection mode (gVIM only)   
+(place cursor from where block select should be done   
+hold down ALT key, drag-select using mouse)   
+
 ### SCREEN MOVEMENT
 z.  Center the screen on the cursor   
 zt  Scroll the screen so the cursor is at the top   
