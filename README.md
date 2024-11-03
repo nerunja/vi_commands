@@ -16,11 +16,11 @@ Ctrl + x - Decrement counter integer value under cursor
 ```
 ## Browse
 ```
-:bro[wse] ol[dfiles] - type the number and enter [press spacebar to view more files, note the of file num to edit, press q]
+:bro[wse] ol[dfiles] - type the number and enter [press spacebar to view more files, note the of file num to edit, press q] - working only with gVIM
 :ol[dfiles]  - show recent files list. To choose file n :e #&lt;n
 :Vex d:\n (press tab) - open vertically split explorer showing d:/n... folders, press
 :tabnew        - open a new tab for a new untitled [No Name] file
-:browse tabnew - open a new tab with file open dialog
+:browse tabnew - open a new tab with file open dialog - works only with gVIM
 ```
 ```
 i       - Insert text from cursor
@@ -229,9 +229,9 @@ N - prev match
 ### SPLIT VIEWS
 :vsp - create vertical    split of current window   
 :sp  - create horizontal  split of current window   
-:Sexplore - browse by splitting a new horiz window   
-:Explore - browse directory, o any file to open   
-:Vexplore - Explore with vertical window   
+:Ex[plore] - browse directory, o any file to open (uses built-in netrw plugin)   
+:Se[xplore] - browse by splitting a new horiz window (uses built-in netrw plugin)   
+:Ve[xplore] - Explore with vertical window (uses built-in netrw plugin)   
 
 ### CUT/COPY/PASTE
 v      - enter visual selection mode followed by use any movement commands to select text   
