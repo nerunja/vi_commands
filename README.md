@@ -618,4 +618,5 @@ $ vim -S ~/mysession.vim
 
 
 FAQ:
-
+1. System clipboard content copied from another GUI application cannot be pasted into terminal vi editor with "*p 
+While in edit/insert mode use terminals/system's default paste command Ctrl + Shift + v
