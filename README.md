@@ -271,6 +271,8 @@ viwp   - select "second", then replace it with "first"
 viw"0p - select "third", then replace it with "first"   
 
 The above commands works on any block word/lines enclosed within ' ', " ", { }, ( )
+while the cursor is within some block of words / lines enclosed within any of ' ', " ", ( ), { } try 
+yi{, ya{, yi', ya', di{, di', di(  
 
 
 vg_y   - yank/copy to vim clipboard from cursor till EOL without new line   
