@@ -270,13 +270,16 @@ viwp   - select "second", then replace it with "first"
 ...      Move the cursor to another word (say "third")   
 viw"0p - select "third", then replace it with "first"   
 
+The above commands works on any block word/lines enclosed within ' ', " ", { }, ( )
+
+
 vg_y   - yank/copy to vim clipboard from cursor till EOL without new line   
 vg_"*y - yank/copy to system clipboard from cursor till EOL without new line   
 "*yy   - yank/copy to system clipboard from cursor till EOL without new line   
 
-ay  - register 'a' copies text already selected ( using v(visual mode) command)"   
+"ay  - register 'a' copies text already selected ( using v(visual mode) command)"   
 "ayy - register 'a' copies(yanks) current line   
-ap  - register 'a' contents pasted"   
+"ap  - register 'a' contents pasted"   
 
 s - substitute (cut/paste)   
 R - Replace(overwrite) mode until ESC   
