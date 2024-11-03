@@ -615,3 +615,7 @@ or open vim application with the -S option:
 $ vim -S ~/mysession.vim   
 
 5. number followed by dot – repeat last vim command 5 times   
+
+
+FAQ:
+
